@@ -28,25 +28,25 @@ To run this project locally, follow these steps:
 
 2. **Set up virtual environment (optional but recommended):**
 
-```bash
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
-```
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   ```
 
 3. **Install dependencies:**
 
-```bash
-pip install Django pandas numpy matplotlib
-```
+   ```bash
+   pip install Django pandas numpy matplotlib
+   ```
 
 4. **Apply database migrations:**
 
-```bash
-python manage.py migrate
-```
+   ```bash
+   python manage.py migrate
+   ```
 
 5. **Run the development server:**
 
-```bash
-python manage.py runserver
-```
+   ```bash
+   python manage.py runserver
+   ```
